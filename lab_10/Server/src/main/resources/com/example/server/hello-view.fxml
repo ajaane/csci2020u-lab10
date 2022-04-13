@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.server.HelloController">
+   <children>
+      <Button fx:id="exitButton" layoutX="40.0" layoutY="267.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+      <ScrollPane fx:id="sp" layoutX="19.0" layoutY="28.0" prefHeight="219.0" prefWidth="430.0">
+         <content>
+            <VBox fx:id="vb" prefHeight="204.0" prefWidth="428.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
